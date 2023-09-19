@@ -1,0 +1,524 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+/* Header Top Option Design */
+/* Left Site */
+.header_row {
+    background-color: #c0392b;
+    padding: 5px;
+    clear: both;
+}
+.search-container {
+    float: left;
+    width: 100%;
+}
+.search-container input {
+    font-size: 20px;
+    padding: 5px;
+    width: 70%;
+    outline: none;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    float: left;
+}
+.search-container button {
+    padding: 5px;
+    background-color: #2c2c54;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 41px;
+    float: left;
+    text-align: center;
+}
+.search-container button:hover {
+    background-color: #3e474e;
+    transition: 0.3s;
+}
+/* Right Site */
+.header_right {
+    float: right;
+}
+.social-link a button {
+    padding: 5px;
+    font-size: 18px;
+    width: 40px;
+    text-align: center;
+    margin-left: 2px;
+    background-color: #2c2c54;
+    color: #fff;
+    border: none;
+    height: 41px;
+}
+
+.fa-facebook:hover {
+    background: #3b5998;
+    transition: 0.3s;
+}
+.fa-twitter:hover {
+    background: #55acee;
+    transition: 0.3s;
+}
+.fa-instagram:hover {
+    background: #125688;
+    transition: 0.3s;
+}
+.fa-linkedin:hover {
+    background: #007bb5;
+    transition: 0.3s;
+}
+.fa-github:hover {
+    background: #4b4ed6;
+    transition: 0.3s;
+}
+.fa-google:hover {
+    background: #ffce45;
+    transition: 0.3s;
+}
+.fa-youtube:hover {
+    background: #bb0000;
+    transition: 0.3s;
+}
+
+/* Use a media query to add a responsive design: 700px */
+@media screen and (max-width: 700px) {
+    .search-container input {
+        font-size: 15px;
+        padding: 3px;
+        width: 70%;
+    }
+    .search-container button {
+        padding: 3px;
+        font-size: 15px;
+        height: 30px;
+    }
+
+    .social-link a button {
+        padding: 3px;
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .search-container input {
+        width: 70% !important;
+    }
+    .fa-instagram {
+        display: none;
+    }
+    .header_row .top_design1 {
+        width: 80%;
+    }
+    .header_row .top_design2 {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 581px) {
+    .search-container input {
+        font-size: 10px;
+        padding: 2px;
+        width: 80%;
+    }
+    .search-container button {
+        padding: 2px;
+        font-size: 10px;
+        height: 20px;
+    }
+    .header_row .top_design1 {
+        width: 60%;
+        float: left;
+    }
+    .header_row .top_design2 {
+        width: 40%;
+        float: right;
+        margin-top: -5px;
+    }
+    .social-link a button {
+        padding: 2px;
+        font-size: 8px;
+        width: 15px;
+        height: 20px;
+    }
+    .fa-google,
+    .fa-twitter {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 342px) {
+    .header_row .top_design1 {
+        width: 70%;
+    }
+    .header_row .top_design2 {
+        width: 30%;
+    }
+    .fa-linkedin,
+    .fa-instagram {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 295px) {
+    .header_row .top_design1 {
+        width: 100%;
+    }
+    .header_right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .header_row {
+        background-color: #182c61;
+        padding: 10px;
+    }
+    .search-container button {
+        background-color: #3e474e;
+        color: aliceblue;
+    }
+    .search-container button:hover {
+        background-color: #bb0000;
+    }
+
+    .search-container input {
+        font-size: 10px;
+        padding: 2px;
+    }
+    .search-container button {
+        padding: 2px;
+        font-size: 10px;
+        height: 21px;
+    }
+}
+/* Header Top Option Design End */
+
+/* Header Bottom Option Design Start */
+.header_bottom {
+    background-color: #182c61;
+    padding: 2px;
+    clear: both;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: white;
+    transition: 0.3s;
+}
+.logo_nafees {
+    color: #c0392b;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #c0392b;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c0392b;
+}
+
+.navbar-expand-md .navbar-nav {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* Use a media query to add a responsive design: 768px */
+@media screen and (max-width: 326px) {
+    .navbar-light .navbar-brand {
+        font-size: 18px;
+    }
+}
+
+.navbar-light .navbar-toggler {
+    border-color: none;
+}
+.navbar-light .navbar-toggler:hover {
+    background-color: #ffffffc2;
+    transition: 0.3s;
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.btn-close:hover {
+    background-color: transparent;
+    border: 1px solid #c0392b;
+    transition: 0.3s;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.offcanvas-header .btn-close {
+    font-size: 20px;
+}
+
+.h5,
+h5 {
+    font-weight: bolder;
+    color: white;
+}
+
+.offcanvas-end {
+    background-color: #2c2c54;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    transition: 0.3s;
+}
+
+/* Header Bottom Option Design End */
+
+/* Carousel Design Start  */
+.carousel_row {
+    clear: both;
+}
+.slider_option {
+    padding: 0;
+}
+.carousel-item img {
+    height: 480px;
+    background-size: cover;
+    background-position: center center;
+}
+.slider_connects .slider_youtube {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #c0392b;
+    color: aliceblue;
+    border: none;
+    padding: 5;
+    outline: none;
+}
+.slider_connects .slider_youtube:hover {
+    background-color: #3e474e;
+    border: 1px solid #c0392b;
+    transition: 0.3s;
+}
+.slider_text {
+    font-size: 60px;
+    color: white;
+}
+.slider_lorem #abrar_text {
+    color: white;
+    font-weight: normal;
+}
+/* Use a media query to add a responsive design: 768px */
+@media screen and (max-width: 575px) {
+    .slider_option {
+        display: none;
+    }
+}
+
+/* Use a media query to add a responsive design: 768px */
+@media screen and (max-width: 800px) {
+    .slider_text {
+        font-size: 45px;
+    }
+}
+/* Carousel Design End */
+
+/* Main Playlists Section Design Start */
+.h5 {
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 15px;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+.image_text {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+.third_row {
+    background-color: #2c2c54;
+    clear: both;
+}
+.main_playlists {
+    height: 400px;
+    padding: 10px;
+    border: 2px solid #c0392b;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.main_playlists:hover {
+    background-color: #3e474e;
+    transition: 0.3s;
+}
+/* Use a media query to add a responsive design: 575px */
+@media screen and (max-width: 575px) {
+    .main_playlists {
+        min-height: 200px;
+    }
+    .imagebox {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .nafees_tutorial .playlist_text {
+        font-size: 25px;
+    }
+    .main_playlists .h5 {
+        font-size: 25px;
+    }
+    .footer_row {
+        display: none;
+    }
+}
+/* Main Playlists Section Design End */
+
+/* Playlists Section Design Start */
+.playlists_text {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+a {
+    text-decoration: none;
+}
+.playlists_text span {
+    font-size: 20px;
+    color: #c0392b;
+}
+.playlists_row {
+    background-color: #576574;
+}
+.nafees_tutorial {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #3e474e;
+    padding: 5px;
+    width: 100%;
+}
+.box2 {
+    margin-bottom: 10px;
+}
+/* Use a media query to add a responsive design: 575px */
+@media screen and (max-width: 1210px) {
+    .nafees_tutorial .playlist_text {
+        font-size: 20px;
+    }
+    .main_playlists .h5 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .nafees_tutorial .playlist_text {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .nafees_tutorial .playlist_text {
+        font-size: 14px;
+    }
+    .main_playlists .h5 {
+        font-size: 12px;
+    }
+    .last_text p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .nafees_tutorial .playlist_text {
+        font-size: 20px;
+    }
+    .main_playlists .h5 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .playlists_text span {
+        display: none;
+    }
+}
+@media screen and (max-width: 350px) {
+    .playlists_text {
+        font-size: 18px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #182c61;
+    }
+    .main_playlists {
+        display: none;
+    }
+    .last_text p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 270px) {
+    .playlists_text {
+        display: none;
+    }
+    .last_text p {
+        font-size: 10px;
+    }
+}
+/* Playlists Section Design End */
+
+/* Footer Design Section Design Start */
+.footer_row {
+    background-color: #1e272e;
+    clear: both;
+}
+.some_text {
+    color: white;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 15px;
+    font-style: italic;
+    
+}
+/* Footer Design Section Design End */
+
+/* Footer Design Last Section  Start*/
+.last_row {
+    background-color: #182c61;
+}
+.last_text {
+    color: lavenderblush;
+    font-size: 20px;
+    transition: 0.3s;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.025em;
+}
+.last_text a {
+    text-decoration: none;
+    color: lavenderblush;
+}
+.last_text a:hover {
+    color: #ff3838;
+    text-decoration: underline;
+}
+/* Footer Design Last Section  End*/
